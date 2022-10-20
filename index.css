@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+img {
+    margin-left: 10px;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin: 0px 10px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.all {
+    display: flex;
+    margin-top: 30px;
+}
+
+.div1 , .div2 , .div3 {
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    height: 500px;
+}
+
+h2.h2 {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 35px 35px 0px 35px;
+}
+
+.all ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all ul > li {
+    margin-bottom: 50px;
+    background-color: black;
+    width: 60%;
+    height: 50px;
+    border-radius: 38%;
+    display: flex;
+    align-items: center;
+}
+
+.all ul > li > a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.div4 {
+    width: 25%;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.h2_connexion {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+label , input {
+    margin: 2%;
+}
+
+input {
+    width: 96%;
+    height: 50px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.P_cree_C , .P_MDP {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.P_MDP {
+    font-weight: bold;
+}
+
+.cree_C {
+    color: black;
+    text-decoration: none;
+}
+
+.MDP {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
